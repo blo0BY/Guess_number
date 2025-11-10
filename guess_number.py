@@ -10,10 +10,10 @@ while True:
     if guess < number:
         print("Число больше")
     
-    if guess > number:
+    elif guess > number:
         print("Число меньше")
 
-    if guess == number:
+    elif guess == number:
         print("Кгадал! Число", number)
         break
 
